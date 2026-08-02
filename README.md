@@ -36,6 +36,8 @@ A thumbnail grid for restructuring documents:
   - Tick (✓)
   - Tick in Box (☑)
   - Cross (✗)
+- **Ink** — use ink to sketch anything above pdf.
+- **Highlighter** — highlight any text.
 
 ### Signature & Stamp / E-Sign (`Ctrl+E`)
 - Load a scanned signature (Load Signature) or company chop (Load Chop) from PNG, JPG, or BMP.
