@@ -1,7 +1,7 @@
 # MyPDF
 
 **A free, lightweight PDF reader and editor for Windows.**
-Version 1.03 — https://github.com/mus3na/MyPDF
+Version 1.09 — https://github.com/mus3na/MyPDF
 
 Copyright (C) 2026 Ir. Ts. Musnazril Bin Mustaq Khan. All rights reserved. Portions Copyright (C) 2026 mus3na. All rights reserved. For conditions of distribution and use, see License.pdf.
 
