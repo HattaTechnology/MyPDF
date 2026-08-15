@@ -1,7 +1,7 @@
 # MyPDF
 
 **A free, lightweight PDF reader and editor for Windows.**
-Version 1.10 — https://github.com/mus3na/MyPDF
+Version 1.10 — https://github.com/HattaTechnology/MyPDF
 
 Copyright (C) 2026 Hatta Technology. All rights reserved. For conditions of distribution and use, see License.pdf.
 
@@ -132,7 +132,7 @@ The history is cleared when you save and close, or open another file.
 
 ## Installation
 
-1. Download the latest installer from https://github.com/mus3na/MyPDF/releases.
+1. Download the latest installer from https://github.com/HattaTechnology/MyPDF/releases.
 2. Double-click `MyPDF_Installer_64.exe`.
 3. When User Account Control prompts to allow software from an unknown publisher, click **Yes**.
 4. Read and accept the license agreement, then click **Next**.
@@ -146,7 +146,7 @@ The history is cleared when you save and close, or open another file.
 
 MyPDF does not include an automatic updater. To update:
 
-1. Visit https://github.com/mus3na/MyPDF/Releases.
+1. Visit https://github.com/HattaTechnology/MyPDF/Releases.
 2. Download the new installer.
 3. Run the installer.
 4. Launch MyPDF and check the new version on the splash screen or under **Help > About**.
