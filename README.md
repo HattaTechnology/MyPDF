@@ -20,7 +20,7 @@ For full step-by-step instructions, see [Manual.pdf](Manual.pdf).
 ### View
 - Open and read PDF files, including password-protected documents (3 password attempts).
 - **Multiple documents in tabs** — each tab keeps its own undo history.
-- Acrobat-style dark reading canvas with pages floating on soft shadows.
+- dark reading canvas with pages floating on soft shadows.
 - **Zoom** 1–400 %, with **Fit Width** and **Fit Page** at the top of the zoom dropdown.
 - **Hand tool** — drag to pan the page. Click the hand button, press `H`, or just hold **Space** while reading.
 - Select text and copy it with `Ctrl+C` without switching to any edit mode.
@@ -45,7 +45,7 @@ A thumbnail grid for restructuring documents:
 
 #### Annotation tools
 
-All of these are real PDF annotations: they show up correctly in Acrobat, Edge or any other reader, they survive saving and reopening, and each one is a separate `Ctrl+Z` step. Only one tool is armed at a time — press `Esc` or right-click to put it away.
+All of these are real PDF annotations: they show up correctly, they survive saving and reopening, and each one is a separate `Ctrl+Z` step. Only one tool is armed at a time — press `Esc` or right-click to put it away.
 
 | Tool | How to use it |
 |------|---------------|
