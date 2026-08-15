@@ -1,9 +1,9 @@
 # MyPDF
 
 **A free, lightweight PDF reader and editor for Windows.**
-Version 1.09 — https://github.com/mus3na/MyPDF
+Version 1.10 — https://github.com/mus3na/MyPDF
 
-Copyright (C) 2026 Ir. Ts. Musnazril Bin Mustaq Khan. All rights reserved. Portions Copyright (C) 2026 mus3na. All rights reserved. For conditions of distribution and use, see License.pdf.
+Copyright (C) 2026 Hatta Technology. All rights reserved. For conditions of distribution and use, see License.pdf.
 
 ---
 
@@ -19,7 +19,16 @@ For full step-by-step instructions, see [Manual.pdf](Manual.pdf).
 
 ### View
 - Open and read PDF files, including password-protected documents (3 password attempts).
-- Standard reader view with title bar showing the file name and a status bar showing the page count.
+- **Multiple documents in tabs** — each tab keeps its own undo history.
+- Acrobat-style dark reading canvas with pages floating on soft shadows.
+- **Zoom** 1–400 %, with **Fit Width** and **Fit Page** at the top of the zoom dropdown.
+- **Hand tool** — drag to pan the page. Click the hand button, press `H`, or just hold **Space** while reading.
+- Select text and copy it with `Ctrl+C` without switching to any edit mode.
+- **Find** (`Ctrl+F`) highlights every hit and steps through them.
+
+### Rotate
+- **Whole document** — the two curved-arrow buttons on the toolbar rotate every page 90° left or right in a single undoable step.
+- **Single page** — the rotate buttons inside the Edit panel turn only the page you are on.
 
 ### Organize Pages (`Ctrl+Shift+O`)
 A thumbnail grid for restructuring documents:
@@ -31,13 +40,21 @@ A thumbnail grid for restructuring documents:
 ### Edit PDF (`Ctrl+2`)
 - **Add new text** — choose font, size, and colour, then click anywhere on the page.
 - **Edit existing text** — hover to highlight an editable span, click to edit inline. Font matching maps serif → Times Roman, sans-serif → Helvetica, monospace → Courier.
-- **Rotate page** — 90° increments, left or right.
-- **Annotation** — place vector symbols permanently onto the page:
-  - Tick (✓)
-  - Tick in Box (☑)
-  - Cross (✗)
-- **Ink** — use ink to sketch anything above pdf.
-- **Highlighter** — highlight any text.
+- **Rotate page** — 90° increments, left or right (this page only).
+- **Paste a picture** — snip anything with the Windows Snipping Tool and press `Ctrl+V`. It lands at its original size; drag to move it, drag the bottom-right handle to resize.
+
+#### Annotation tools
+
+All of these are real PDF annotations: they show up correctly in Acrobat, Edge or any other reader, they survive saving and reopening, and each one is a separate `Ctrl+Z` step. Only one tool is armed at a time — press `Esc` or right-click to put it away.
+
+| Tool | How to use it |
+|------|---------------|
+| Tick (✓), Tick in Box (☑), Cross (✗) | Click on the page. Size comes from the **Size** box. |
+| **Strike line** | Click to drop a line of the default length, or drag sideways to set the length exactly. The line always stays level. Click a line you already placed to select it, then drag the middle to move it or either end to change its length. |
+| **Pen** | Draw freehand in the selected colour — circle a figure, jot a note, sign your name. Thickness is set by the **Pen width** box. |
+| **Highlighter** | Swipe across text to highlight it in **yellow, green, blue or pink**. The highlight snaps neatly to whole words, and the text underneath stays selectable and searchable. |
+| **Erase** | Click a pen stroke to delete it, or hold the button down and swipe across several. |
+| **Move** | Drag any pen stroke to a new position. |
 
 ### Signature & Stamp / E-Sign (`Ctrl+E`)
 - Load a scanned signature (Load Signature) or company chop (Load Chop) from PNG, JPG, or BMP.
@@ -74,12 +91,6 @@ Full session undo history covering text edits, page reordering, deletions, inser
 
 The history is cleared when you save and close, or open another file.
 
-### Comment
-User can place comment and edit existing comment.
-
-### Search
-User can now search the whole PDF.
-
 ---
 
 ## Keyboard Shortcuts
@@ -90,12 +101,22 @@ User can now search the whole PDF.
 | Save           | `Ctrl+S`         |
 | Save As        | `Ctrl+Shift+S`   |
 | Print          | `Ctrl+P`         |
+| Find           | `Ctrl+F`         |
+| Copy selected text | `Ctrl+C`     |
+| Paste picture  | `Ctrl+V`         |
 | Organize       | `Ctrl+Shift+O`   |
-| Edit mode      | `Ctrl+2`         |
+| Edit Text      | `Ctrl+T`         |
 | E-Sign         | `Ctrl+E`         |
 | Watermark      | `Ctrl+W`         |
 | Redact         | `Ctrl+D`         |
+| Comment        | `Ctrl+M`         |
 | Undo / Redo    | `Ctrl+Z` / `Ctrl+Y` |
+| Fit Page       | `Ctrl+0`         |
+| Actual Size (100 %) | `Ctrl+1`    |
+| Fit Width      | `Ctrl+2`         |
+| Zoom in / out  | `Ctrl+=` / `Ctrl+-` |
+| Hand tool (pan)| `H`, or hold **Space** |
+| Cancel the current tool | `Esc` or right-click |
 
 ---
 
@@ -146,8 +167,8 @@ Updating does not affect existing PDF files. Application settings and recent fil
 
 MyPDF is free software distributed through GitHub.
 
-- Repository: https://github.com/mus3na/MyPDF
-- Issues: https://github.com/mus3na/MyPDF/issues
+- Repository: https://github.com/HattaTechnology/MyPDF
+- Issues: https://github.com/HattaTechnology/MyPDF/issues
 - Email: mus3na@msn.com
 
 ### Reporting Bugs
@@ -160,4 +181,4 @@ Please include:
 
 ---
 
-© 2026 Ir. Ts. Musnazril Bin Mustaq Khan. All Rights Reserved.
+© 2026 Hatta Technology. All Rights Reserved.
